@@ -6,7 +6,7 @@ st.title("Классификация изображений (ResNet-50)")
 st.write("Загрузите изображение для классификации")
 
 # URL API на хостинге Amvera
-API_URL = "http://image-api-ruadh3001.amvera.io/predict"
+API_URL = "https://image-api-ruadh3001.amvera.io//predict"
 
 uploaded_file = st.file_uploader(
     "Выберите изображение",
