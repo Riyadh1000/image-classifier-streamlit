@@ -7,7 +7,7 @@ st.title("Классификатор изображений (ShuffleNet)")
 st.write("Загрузите изображение для классификации с использованием ShuffleNetV2")
 
 # URL API (заменить на ваш URL при деплое)
-API_URL = "http://localhost:8080/classify/"
+API_URL = "https://image-classifier-ruadh3001.amvera.io/classify/"
 
 uploaded_file = st.file_uploader(
     "Выберите изображение",
